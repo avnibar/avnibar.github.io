@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="bboys.css">
+    <script type="text/javascript" src="bboys.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="https://emoji.gg/assets/emoji/7822_EZ.png" />
+</head>
+<body>
+    <header>
+        <h1> BarBoys Inc.</h1>
+        <h4>I can't think of a tagline</h4>
+    </header>
+    <br>
+    <br>
+    <section class="yoyo">
+        <p> VISION:</p>
+        <p>To complete this website for dtc work</p>
+        <br>
+        <br>
+        <p>ABOUT US:</p>
+        <p>I'm making this for dtc cos Mr. So said to.</p>
+    </section>
+    <section class="container">
+        <h2>YO CARDS://</h2>
+        <article class="card"> 
+            <div class="icons"><img src="https://emoji.gg/assets/emoji/7822_EZ.png" style="width:180px;height:140px;"></div>
+            <h3>Yo</h3>
+            <p>yo</p>
+            <button> Ayo </button>
+        </article>
+        <article class="card"> 
+            <div class="icons"> <img src="clap.gif" style="width:180px;height:140px;"></div>
+            <h3>Bar Avni</h3>
+            <p>I'm kind of a god.</p>
+            <button> Ayo </button>
+        </article>
+        <article class="card"> 
+            <div class="icons"><img src="https://emoji.gg/assets/emoji/6757_Sadge.png" style="width:180px;height:140px;"></div>
+            <h3>Yo</h3>
+            <p>yo</p>
+            <button> Ayo </button>
+        </article>
+    </section>
+    <section>
+        <h2>MY ORDER FORM: </h2>
+        <form id="my-form" >
+            <table>
+                <tr>
+                <td> Name: </td>
+                <td><input type="text" size="25" name="my-name"></td>
+                </tr>
+                
+                <tr>
+                <td> Address: </td>
+                <td><input type="text" size="25" name="my-address"></td>
+                </tr>
+                
+                <tr>
+                <td> Favourite drink: </td>
+                <td>
+                    <select name="my-drink">
+                    <option> Milk </option>
+                    <option> Coffee </option>
+                    <option> Tea </option>
+                    </select></td>
+                </tr>
+                    
+                <tr>
+                <td> Quantity: </td>
+                <td>
+                    <input type="number" name="my-qty"
+                    value="1" min="1" max="5">
+                    <small>(max 5)</small>  
+                </td>
+                </tr>
+                <tr><br></tr>
+                <tr>
+                    <td colspan="2" >
+                        <input class="button" type="button" value="Process Order" onclick="placeOrder();">
+                        <input class="button" type="reset" value="Clear" onclick="document.getElementById('my-order').style.display = 'none'";></td>
+                </tr>
+            </table>
+            <br>
+            <div id="my-order">
+            </div>
+        </form>
+    </section>
+    <div class="footer">
+        <h3>Now leave</h3>
+        <div class="container">
+            
+        </div>
+    </div>
+</body>
